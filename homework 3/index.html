@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <title>Gmail</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pb-4">
+            <a class="navbar-brand col-lg-11" href="#">Google</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="form-inline my-2 my-lg-10">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Sign in</button>
+              </form>
+            </div>
+          </nav>
+
+    <!-- //Container1 -->
+    <h1 class=" lead display-4 text-center text-muted mt-5 pt-5">Create your Google Account</h1>
+
+
+    <div class="container">
+        
+        <div class="row">
+          <div class="col-sm mt-5 pt-3">
+                 <div>
+                   <p class="lead text-secondary" style="text-align: center;">One account is all you need</p>
+                   <p class="text-secondary">A single username and password gets you into everything Google</p>
+                 </div>
+
+                 <div class="row">
+                         <div class="col lg">
+                             <img src="img/gmail.png" alt="" style="height: 20px; width: 20px;">
+                         </div>
+                         <div class="col lg">
+                             <img src="img/chrome.png" alt="" style="height: 20px; width: 20px;">
+                         </div>
+                         <div class="col lg">
+                             <img src="img/yt.png" alt="" style="height: 20px; width: 20px;">
+                         </div>
+                         <div class="col lg">
+                             <img src="img/maps.png" alt="" style="height: 20px; width: 20px;">
+                         </div>
+                         <div class="col lg">
+                             <img src="img/playstore.jpg" alt="" style="height: 20px; width: 20px;">
+                         </div>
+                    </div>
+               
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm mt-5 pt-4">
+                          <p class="lead text-secondary" style="text-align: center;">Make Google yours</p>
+                          <p class="text-secondary">Set up your profile and preferences just the way you like.</p>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="card col">
+                                <div class="card-img-top">
+                                   <img src="img/i3.jpg"class="img-fluid" alt="" style="position:absolute;">
+                                </div>
+                                <div class="card-body ">
+                                   
+                                </div>
+                            </div>
+
+                            <div class="card col">
+                                <div class="card-img-top">
+                                   <img src="img/i4.jpg"class="img-fluid" alt="">
+                                </div>
+                                <div class="card-body ">
+                                   
+                                </div>
+                            </div>
+
+                            <div class="card col">
+                                <div class="card-img-top">
+                                   <img src="img/i5.jpg"class="img-fluid" alt="">
+                                </div>
+                                <div class="card-body ">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <div class="container">
+                        <div class="row">
+                          <div class="col-sm mt-5 pt-4">
+                            <p class="lead text-secondary" style="text-align: center;">Take it all with you</p>
+                            <p class="text-secondary">Switch between devices and pick up whereever you left off.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="row ml-4 pl-4">
+                            <img src="img/img2.jpg" alt="">
+                      </div>
+
+
+          </div>
+
+
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <!-- Form -->
+          <div class="col-sm mt-5 \\pt-5">
+
+            <form class=action="/newaccount" method=post
+            oninput='p2.setCustomValidity(p2.value != p1.value ? "Passwords do not match." : "")'>
+                <div class="form-group bg-light p-4">
+                  <label for="Name">Name</label>
+                  <div class="row">
+                      <div class="col">
+                    <input type="text" class="form-control" placeholder="John" required>
+                   </div>
+
+                   <div class="col">
+                    <input type="text" class="form-control" placeholder="Smith" required>
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="userName">Choose your username</label>
+                    <input type="text" class="form-control" placeholder="john.smith" required>
+                  </div>
+
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Create a password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="p1" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputPassword2">Create a password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" name="p2" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="dob">Birthday</label>
+                  <div class="row">
+                      <div class="col">
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle btn-outline-secondary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 150px; text-align: start;">
+                          November
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item" type="button">Jan</button>
+                          <button class="dropdown-item" type="button">Feb</button>
+                          <button class="dropdown-item" type="button">Mar</button>
+                          <button class="dropdown-item" type="button">Apr</button>
+                          <button class="dropdown-item" type="button">May</button>
+                          <button class="dropdown-item" type="button">Jun</button>
+                          <button class="dropdown-item" type="button">Jul</button>
+                          <button class="dropdown-item" type="button">Aug</button>
+                          <button class="dropdown-item" type="button">Sep</button>
+                          <button class="dropdown-item" type="button">Oct</button>
+                          <button class="dropdown-item" type="button">Nov</button>
+                          <button class="dropdown-item" type="button">Dec</button>
+                        </div>
+                    </div>
+                      </div>
+                        <div class="row">
+                            <div class="col">
+                        <input type="text" class="form-control" placeholder="23" required>
+                            </div>
+                        </div>
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="1963" required>
+                       </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle btn-outline-secondary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 500px; text-align: start;">
+                          Male
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item" type="button">Male</button>
+                          <button class="dropdown-item" type="button">Female</button>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="mPhone">Mobile Phone</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <button type="button" class="btn btn-outline-secondary">CAN</button>
+                          <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">USA</a>
+                            <a class="dropdown-item" href="#">CAN</a>
+                            <a class="dropdown-item" href="#">IND</a>
+                          </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" required>
+                      </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Your current email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                  </div>
+
+                <div class="form-check">
+                    <div class="col">
+                    <label for="checkbox">Prove you're not a robot</label>
+                    <div class="row">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                  <label class="form-check-label" for="exampleCheck1">Skip this notification (phone notification may be required)</label>
+                </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom:30px;">
+                <div class="col">
+                <img src="img/img1.jpg" id="captcha_image"/>
+                <br/> <a id="captcha_reload" href="#">reload</a>
+                </div>
+                <div class="col-lg-6">
+                <label for="email">Enter the code from the image here:</label>
+                <input type="text" class="form-control" required id="captcha" name="captcha" >
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="location">Location</label>
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle btn-outline-secondary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 500px; text-align: start;">
+                      Canada
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">USA</button>
+                      <button class="dropdown-item" type="button">Canada action</button>
+                      <button class="dropdown-item" type="button">India</button>
+                    </div>
+                  </div>
+              </div>
+
+
+              <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+              <label class="form-check-label" for="exampleCheck1">I agree to the Google <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+            </div>
+            <div class="form-check">
+                <button type="button" class="btn btn-primary btn-lg">Next step</button>
+               </div>
+            </div>
+        
+
+               
+              </form>
+              
+              <div class="row">
+                <div class="col">
+                <p><a href="#">Learn more </a>about why we ask for this information</p>
+              </div>
+
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="jumbotron pb-1 bg-light">
+          <div class="d-inline">
+            <span style="padding: 10px;">Google</span>
+            <span style="padding: 10px;">Privacy & Terms </span>
+            <span style="padding:10px;">Help</span>
+        </div>
+      </div>
+    </body>
+</html>
